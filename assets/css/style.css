@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("footer.css");
+@import '/assets/css/headerSecond.css';
+@import '/assets/css/buy.css';
+@import '/assets/css/detail_page.css';
+@import '/assets/css/whybuy.css';
+@import '/assets/css/whyBiznet.css';
+@import '/assets/css/biznet-home.css';
+@import '/assets/css/affordability-calculator.css';
+@import '/assets/css/guide-step.css';
+@import '/assets/css/Sub2Deals.css';
+@import '/assets/css/Auth.css';
+@import '/assets/css/Blog.css';
+@import url(rent.css);
+@import url(Sub2Deals.css);
+@import '/assets/css/contact.css';
+@import '/assets/css/Investor.css';
+@import '/assets/css/realtor.css';
+@import '/assets/css/about.css';
+@import '/assets/css/flipper.css';
+@import '/assets/css/transaction_cordinator.css';
+@import '/assets/css/contracter.css';
+@import '/assets/css/how-its-work.css';
+@import '/assets/css/Developer.css';
+@import '/assets/css/lenders.css';
+@import '/assets/css/nav_date.css';
+@import './Faqs.css';
+@import './product_main_detail.css';
+@import './Guides.css';
+@import '/assets/css/advertise.css';
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --background_color: #0c2640;
+    --color: #09aab0;
+    --color_white: white;
+    --hover_bg_color: #09aab0;
+    --color-gray: #f5f5f5;
+
+    --font_family: {
+        font-family: "Libre Franklin", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+    }
+}
+
+
+button {
+    background-color: var(--background_color) !important;
+    color: var(--color_white) !important;
+    transition: 1s all ease !important;
+
+    &:hover {
+        background-color: var(--hover_bg_color) !important;
+    }
+}
+
+.carousel-control-prev {
+    width: 50px;
+    height: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.carousel-control-next {
+    width: 50px;
+    height: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+::selection {
+    background: var(--color);
+    color: white;
+}
+
+.Main_portion {
+
+    .home_cards {
+        .card {
+            transition: 1s all ease;
+
+            &:hover {
+                box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+            }
+        }
+
+
+    }
+
+    .steps_buttons_real {
+        ul {
+            border-bottom: none;
+        }
+
+        button {
+            border: none;
+            color: var(--color);
+
+            &:focus {
+                background: none;
+                border-bottom: 2px solid var(--color);
+            }
+        }
+
+
+
+        .search-bar {
+            position: relative;
+            max-width: 600px;
+            margin: 20px auto;
+            font-family: var(--font_family);
+
+
+        }
+
+        .search-bar input {
+            width: 100%;
+            padding: 10px;
+            padding-right: 50px;
+            font-family: var(--font_family);
+
+            &:focus {
+                box-shadow: none;
+            }
+        }
+
+        .search-bar button {
+            position: absolute;
+            right: 0;
+            top: 0;
+            height: 100%;
+            font-family: var(--font_family);
+            background-color: var(--background_color);
+            border: none;
+            color: var(--color_white);
+            padding: 10px;
+        }
+    }
+
+    .take_a_position_bottom {
+        position: relative;
+        bottom: 10rem;
+        right: 1rem;
+
+        button {
+            background-color: var(--background_color);
+            color: var(--color_white);
+            transition: 1s all ease;
+
+            &:hover {
+                background-color: var(--hover_bg_color);
+            }
+        }
+    }
+
+    .feed_all_button {
+        button {
+            border: 1px solid var(--color);
+            width: fit-content;
+            border-radius: 10px;
+            color: var(--color);
+            transition: 1s all ease;
+
+            &:hover {
+                background-color: var(--background_color);
+                color: var(--color_white);
+            }
+
+            &:active {
+                background-color: var(--hover_bg_color);
+                color: var(--color_white);
+
+            }
+        }
+    }
+
+    .hidden-content {
+        display: none;
+    }
+
+    .show_more_layoutSet {
+        color: var(--color);
+        border: 2px solid var(--color);
+        border-radius: 10px;
+    }
+
+}

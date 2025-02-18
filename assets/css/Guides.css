@@ -1,0 +1,15 @@
+
+.guide-page-main{
+    .Guides-page {
+        background: url('/assets/images/guide\ 01.jpg') no-repeat center/cover ;
+        background-color: rgba(28, 28, 28, 0.664);
+        background-blend-mode: multiply;
+        height: 400px;
+        width: auto;
+        
+    
+    
+    }
+    
+
+}
